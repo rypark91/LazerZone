@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    color: red;
+    text-align: center;
+}
+  
+body {
+    background-color: black; }
+  
+nav {
+    background-color: #1aff00; 
+    text-align: left;
+}
+#gameTypes ,#tournament ,#monthly {
+    width: 100%;
+    display: inline-block;
+    margin: 30px 0;
+}
+.lefthalf, .righthalf{
+    display: inline-block;
+    width: 48%;
+    margin: 10px 0;
+}
+.lefthalf img, .righthalf img{
+    width: 48%;
+    height: 48%;
+}
+    nav h2, nav p {
+      display: inline;
+      color: blue; 
+    }
+  
+  i {
+    color: blue; 
+    }
+    i:hover {
+      color: #f8f4f4; 
+    }
+  
+  .navbar {
+    height: 70px; 
+    }
+  
+  nav ul {
+    margin-right: 30px;
+    display: inline;
+    float: right; 
+    }
+  
+  h3, #firstHalf, #secondHalf {
+    padding-left: 10px; }
+  
+  
+  nav li {
+    display: inline;
+    color: red; }
+    li a {
+      text-decoration: none;
+      color: #d32626; }
+      li a:hover {
+        color: green; }
+  
+#logo{
+    text-align: left;
+    font-size: 30px;
+}
+#logo a{
+    text-decoration: none;
+}
+  .card {
+    background-color: #af785a;
+    color: #f8f4f4; }
+  
+  #icon {
+    float: right;
+    display: none;
+    font-weight: bold; }
+  
+  .card {
+    width: 200px;
+    margin: 20px auto; }
+    .card img {
+      width: 100%;
+      height: 200px; }
+
+#gameTypes ul{
+    list-style-type: none;
+}
+button{
+    width: 90px;
+    height: 40px;
+    margin: 10px 0;
+}
+  
+  
+  #bottom {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; }
+    #bottom i {
+      color: #af785a; }
+      #bottom i:hover {
+        color: #f8f4f4; }
+    #bottom #firstHalf {
+      width: 650px; }
+    #bottom #secondHalf {
+      width: 650px; }
+  
+  #copy {
+    text-align: center;
+    min-height: 60px;
+    background-color: red;
+    padding: 50px; }
+  
+  @media (min-width: 650px) and (max-width: 1100px) {
+    #imgGallery {
+      grid-template-columns: auto auto;
+      width: 550px; } }
+  
+  @media (max-width: 651px) {
+    #imgGallery {
+      grid-template-columns: auto auto;
+      width: 450px; }
+      #imgGallery img {
+        width: 200px;
+        height: 200px; } }
+  
+  @media (max-width: 900px) {
+    .lefthalf, .righthalf{
+        display: inline-block;
+        width: 100%;
+    }
+    .lefthalf img, .righthalf img{
+        width: 99%;
+        height: 99%;
+    }
+    #tournament{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #mainImg{
+        width: 400px;
+    }
+}
+  
+        @media (max-width: 700px) {
+            .item {
+              display: none; }
+            #icon {
+              display: inline; }
+            .responsive li {
+              display: block; }
+            .newHeight {
+              height: 180px; } }
+  
